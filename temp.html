@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<style>
+			
+			.container {
+				position: relative;
+				float: left;
+				#text-align: center;
+				#float: left;
+				width: 26%;
+			}
+			
+			
+			.container2 {
+				position: relative;
+				float: left;
+
+				#top: 9px;
+				left: 1%;
+				width: 71%;
+			}	
+			
+			.container3 {
+				position: relative;
+				float: left;
+				#left: 31%;
+				width: 52%;
+			}
+			
+			.container4 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 46%;
+			}
+			
+			.container5 {
+				position: relative;
+				float: left;
+				width: 56%;
+			}
+			
+			.container6 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 42%;
+			}
+					
+			.container7 {
+				position: relative;
+				float: left;
+				width: 99%;
+			}
+			
+			.container8 {
+				position: relative;
+				float: left;
+				width: 34%;
+			}
+			
+			.container9 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 34%;
+			}
+			
+			.container10 {
+				position: relative;
+				float: left;
+				left: 2%;
+				width: 29%;
+			}
+			
+			.container11 {
+				position: relative;
+				float: left;
+				width: 41%;
+			}
+			
+			.container12 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 57%;
+			}
+			
+			.container13 {
+				position: relative;
+				float: left;
+				width: 34%;
+			}
+			
+			.container14 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 33%;
+			}
+			
+			.container15 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 30%;
+			}
+			
+			.container16 {
+				position: relative;
+				float: left;
+				width: 48%;
+			}
+			
+			.container17 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 50%;
+			}
+			
+			.container18 {
+				position: relative;
+				float: left;
+				width: 28%;
+			}
+			
+			.container19 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 34%;
+			}
+			
+			.container20 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 34%;
+			}
+			
+			.container21 {
+				position: relative;
+				float: left;
+				width: 50%;
+			}
+			
+			.container22 {
+				position: relative;
+				float: left;
+				left: 1%;
+				width: 48%;
+			}
+			
+			.image {
+				opacity: 1;
+				display: block;
+				width: 100%;
+				height: auto;
+				transition: 0.5s ease;
+				backface-visibility: hidden;
+				padding: 5px;
+				
+			}
+			
+			
+			.middle {
+				transition: 0.5s ease;
+				opacity: 0;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+	 			transform: translate(-50%, -50%);
+				text-align: center;
+			}
+			
+			.container:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container:hover .middle {
+				opacity: 1;
+			}
+			
+			.container2:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container2:hover .middle {
+				opacity: 1;
+			}
+			
+			.container3:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container3:hover .middle {
+				opacity: 1;
+			}
+			
+			.container4:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container4:hover .middle {
+				opacity: 1;
+			}
+			
+			.container5:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container5:hover .middle {
+				opacity: 1;
+			}
+			
+			.container6:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container6:hover .middle {
+				opacity: 1;
+			}
+			
+			.container7:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container7:hover .middle {
+				opacity: 1;
+			}
+			
+			.container8:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container8:hover .middle {
+				opacity: 1;
+			}
+			
+			.container9:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container9:hover .middle {
+				opacity: 1;
+			}
+			
+			.container10:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container10:hover .middle {
+				opacity: 1;
+			}
+			
+			.container11:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container11:hover .middle {
+				opacity: 1;
+			}
+			
+			.container12:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container12:hover .middle {
+				opacity: 1;
+			}
+			
+			.container13:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container13:hover .middle {
+				opacity: 1;
+			}
+			
+			.container14:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container14:hover .middle {
+				opacity: 1;
+			}
+			
+			.container15:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container15:hover .middle {
+				opacity: 1;
+			}
+			
+			.container16:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container16:hover .middle {
+				opacity: 1;
+			}
+			
+			.container17:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container17:hover .middle {
+				opacity: 1;
+			}
+			
+			.container18:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container18:hover .middle {
+				opacity: 1;
+			}
+			
+			.container19:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container19:hover .middle {
+				opacity: 1;
+			}
+			
+			.container20:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container20:hover .middle {
+				opacity: 1;
+			}
+			
+			.container21:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container21:hover .middle {
+				opacity: 1;
+			}
+			
+			.container22:hover .image{
+				opacity: 0.3;
+				width: 102%;
+			}
+			
+			.container22:hover .middle {
+				opacity: 1;
+			}
+			
+			.text {
+				background-color: white;
+				color: black;
+				font-size: 16px;
+				padding: 16px 32px;
+			}
+		
+		</style>
+		
+	</head>
+
+	<body>
+		
+		<div class="container">
+			<a href="https://www.github.com">
+				<img src="Images/99cap.JPG" alt="99 cap" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">99 cap</div>
+			</div>
+		</div>
+		
+		<div class="container2">
+			<a href="https://www.github.com">
+				<img src="Images/ArtBlackTee.jpg" alt="Art Black Tee" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Art Black Tee</div>
+			</div>
+		</div>
+		
+		<div class="container3">
+			<a href="https://www.github.com">
+				<img src="Images/CapCollection.jpg" alt="Cap Collection" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Cap Collection</div>
+			</div>
+		</div>
+		
+		<div class="container4">
+			<a href="https://www.github.com">
+				<img src="Images/ClothesLine.JPG" alt="Clothes Line" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Clothes Line</div>
+			</div>
+		</div>
+		
+		<div class="container5">
+			<a href="https://www.github.com">
+				<img src="Images/EdwinaPinkSweatshirt.JPG" alt="Edwina Pink Sweatshirt" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Edwina Pink Sweatshirt</div>
+			</div>
+		</div>
+		
+		<div class="container6">
+			<a href="https://www.github.com">
+				<img src="Images/GregClub.JPG" alt="Greg Club" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Greg Club</div>
+			</div>
+		</div>
+		
+		<div class="container7">
+			<a href="https://www.github.com">
+				<img src="Images/gregphoneinsta.jpg" alt="Greg phone insta" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Greg Phone Insta</div>
+			</div>
+		</div>
+		
+		<div class="container8">
+			<a href="https://www.github.com">
+				<img src="Images/HatsSparch.JPG" alt="Hats Sparch" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">Hats Sparch</div>
+			</div>
+		</div>
+		
+		<div class="container9">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_0909.jpg" alt="IMG_0909" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_0909</div>
+			</div>
+		</div>
+		
+		<div class="container10">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_1223.JPG" alt="IMG_1223" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_1223</div>
+			</div>
+		</div>
+		
+		<div class="container11">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_1267.JPG" alt="IMG_1267" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_1267</div>
+			</div>
+		</div>
+		
+		<div class="container12">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_1337.jpg" alt="IMG_1337" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_1337</div>
+			</div>
+		</div>
+		
+		<div class="container13">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2298.PNG" alt="IMG_2298" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2298</div>
+			</div>
+		</div>
+		
+		<div class="container14">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2300.PNG" alt="IMG_2300" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2300</div>
+			</div>
+		</div>
+		
+		<div class="container15">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2304.jpg" alt="IMG_2304" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2304</div>
+			</div>
+		</div>
+		
+		<div class="container16">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2305.jpg" alt="IMG_2305" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2305</div>
+			</div>
+		</div>
+		
+		<div class="container17">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2306.jpg" alt="IMG_2306" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2306</div>
+			</div>
+		</div>
+		
+		<div class="container18">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2320.jpg" alt="IMG_2320" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2320</div>
+			</div>
+		</div>
+		
+		<div class="container19">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_2727.JPG" alt="IMG_2727" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_2727</div>
+			</div>
+		</div>
+		
+		<div class="container20">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_3889.JPG" alt="IMG_3889" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_3889</div>
+			</div>
+		</div>
+		
+		<div class="container21">
+			<a href="https://www.github.com">
+				<img src="Images/IMG_3916.jpg" alt="IMG_3916" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">IMG_3916</div>
+			</div>
+		</div>
+		
+		<div class="container22">
+			<a href="https://www.github.com">
+				<img src="Images/mattRecords.JPG" alt="matt records" class="image">
+			</a>
+			<div class="middle">
+				<div class="text">matt records</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
