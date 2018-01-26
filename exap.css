@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+
+	
+}
+div {
+		
+}
+h1 {
+	
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Cooper Black;
+    font-size: 20px;
+}
+a:link {
+    color: #ff88fb; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+img{
+    width:100%;
+    max-width:600px;
+}
+
+a:visited {
+    color: #ff88fb;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4d5eff;
+    background-color: transparent;
+    text-decoration: shadow;
+}
+
+a:active {
+    color: #4d5eff;
+    background-color: transparent;
+    text-decoration: shadow;
+}
