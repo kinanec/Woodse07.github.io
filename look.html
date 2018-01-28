@@ -17,6 +17,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<style>
+		
+			body {
+				background-image: url("https://Woodse07.github.io/Images/ExecuteHeader.png");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-attachment: fixed;
+			}	
 			
 			.container {
 				position: relative;
@@ -400,6 +407,8 @@
 	</head>
 
 	<body>
+	
+
 		
 		<div class="container">
 			<a href="https://www.github.com">
@@ -600,5 +609,27 @@
 		</div>
 		
 	</body>
+	
+	<script>
+	
+		var slideIndex = 0;
+	    effect();
+	
+		function effect() {
+			var i;
+			var x = document.getElementsByClassName("image");
+			
+			for(i = 0; i < x.length; i++) {
+				if(Math.floor(Math.random()*10) < 2)
+			    	x[i].style.filter = 'grayscale(1)';
+			    else
+			    	x[i].style.filter = 'grayscale(0)';
+			}
+			
+			setTimeout(effect, 3000);
+			
+		}
+	
+	</script>
 
 </html>
