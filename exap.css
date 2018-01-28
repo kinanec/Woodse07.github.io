@@ -21,10 +21,6 @@ a:link {
     background-color: transparent; 
     text-decoration: none;
 }
-img{
-    width:100%;
-    max-width:600px;
-}
 
 a:visited {
     color: #ff88fb;
